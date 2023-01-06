@@ -12,6 +12,9 @@ type Client interface {
 	// GetID returns the client ID.
 	GetID() string
 
+	// GetName returns the client_name.
+	GetName() string
+
 	// GetHashedSecret returns the hashed secret as it is stored in the store.
 	GetHashedSecret() []byte
 
